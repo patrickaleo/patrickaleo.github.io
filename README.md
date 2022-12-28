@@ -1,7 +1,7 @@
 <p style="text-align:center; font-size:26px; font-weight:bold;">Patrick D. Aleo</p>
-<img src="github.com/patrickaleo/patrickaleo.github.io/blob/main/images/headshot.JPG" width="200" height="200" />
+<img src="./images/headshot.JPG" width="200" height="200" />
 
-<img src="github.com/patrickaleo/patrickaleo.github.io/blob/main/images/github-mark.png" width="20" height="20" /> <img src="github.com/patrickaleo/patrickaleo.github.io/blob/main/images/linkedin-logo.png" width="20" height="20" />
+<img src="./images/github-mark.png" width="20" height="20" /> <img src="./images/linkedin-logo.png" width="20" height="20" />
 
 AI/ML Researcher for Time-Domain Science in Astronomy
 
