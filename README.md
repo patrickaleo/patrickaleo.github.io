@@ -1,14 +1,10 @@
-<a href="publications.html" style="font-size:22px; font-weight: bold;">Research</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="publications.html" style="font-size:22px; font-weight: bold;">Publications</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="publications.html" style="font-size:22px; font-weight: bold;">Talks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="publications.html" style="font-size:22px; font-weight: bold;">Personal</a>
+<a href="publications.html" style="font-size:22px; font-weight: bold;">Research</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="publications.html" style="font-size:22px; font-weight: bold;">Publications</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="publications.html" style="font-size:22px; font-weight: bold;">Talks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="publications.html" style="font-size:22px; font-weight: bold;">Personal</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/patrickaleo" style="text-align: right;"><img src="./images/github-mark.png" width="20" height="20" alt="Github Logo" title="Github" /></a> <a href="https://www.linkedin.com/in/patrickdaleo/" style="text-align: right;"><img src="./images/linkedin-logo.png" width="20" height="20" alt="LinkedIn Logo" title="LinkedIn" /></a>
 
 <div style="text-align:center;">
   <img src="./images/headshot.JPG" width="150" height="150" style="border-radius:50%;" />
 </div>
-<div style="text-align:center;">
-  <a href="https://github.com/patrickaleo"><img src="./images/github-mark.png" width="20" height="20" alt="Github Logo" title="Github" /></a> <a href="https://www.linkedin.com/in/patrickdaleo/"><img src="./images/linkedin-logo.png" width="20" height="20" alt="LinkedIn Logo" title="LinkedIn" /></a>
-</div>
 <p style="text-align:center; font-size:26px;">Patrick D. Aleo</p>
 <p style="text-align:center; font-size:22px;">AI/ML Researcher for Time-Domain Science in Astronomy</p>
-<div style="text-align:center;">
 
 **NOTE:** This page is under development. Come back later for more!
 
