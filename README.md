@@ -3,8 +3,8 @@
 <div style="text-align:center;">
   <img src="./images/headshot.JPG" width="150" height="150" style="border-radius:50%;" />
 </div>
-<p style="text-align:center; font-size:26px; color:#5d3eaa;">Patrick D. Aleo</p>
-<p style="text-align:center; font-size:22px;">AI/ML Researcher for Time-Domain Science in Astronomy</p>
+<p style="text-align:center; font-size:26px; color:#5d3eaa; font-weight: bold;">Patrick D. Aleo</p>
+<p style="text-align:center; font-size:22px; font-weight: bold;">AI/ML Researcher for Time-Domain Science in Astronomy</p>
 
 **NOTE:** This page is under development. Come back later for more!
 
@@ -17,10 +17,10 @@ Aside from research, I'm a cinephile (lover of movies) and an oenophile (lover o
 Feel free to peruse the website!
 
 #### Education
-<p>The University of Illinois at Urbana-Champaign, Ph.D. Astronomy (Aug. 2018 - late 2023, expected)</p>
-<p style="margin: 0.5">The University of Texas at Austin, BS Physics (Aug. 2014 - Dec. 2017)</p>
-<p style="margin: 0.5">The University of Texas at Austin, BS Astronomy (Aug. 2014 - Dec. 2017)</p>
-
-<div style="border-bottom: 40px solid #5d3eaa;">
-<p style="color:white;">This Jekyll template was custom-made by yours truly, with some help from ChatGPT!</p>
+<div style="line-height: 0.2;">
+  <p>The University of Illinois at Urbana-Champaign, Ph.D. Astronomy (Aug. 2018 - late 2023, expected)</p>
+  <p>The University of Texas at Austin, BS Physics (Aug. 2014 - Dec. 2017)</p>
+  <p>The University of Texas at Austin, BS Astronomy (Aug. 2014 - Dec. 2017)</p>
 </div>
+
+<div style="border-bottom: 80px solid #5d3eaa; text-align: center; color: white;">This Jekyll template was custom-made by yours truly, with some help from ChatGPT!</div>
