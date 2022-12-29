@@ -1,10 +1,10 @@
-<div style="border-top: 5px solid #5d3eaa;"></div>
 <a href="publications.html" style="font-size:22px; font-weight: bold;">Research</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="publications.html" style="font-size:22px; font-weight: bold;">Publications</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="publications.html" style="font-size:22px; font-weight: bold;">Talks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="publications.html" style="font-size:22px; font-weight: bold;">Personal</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/patrickaleo" style="text-align: right;"><img src="./images/github-mark.png" width="20" height="20" alt="Github Logo" title="Github" /></a> <a href="https://www.linkedin.com/in/patrickdaleo/" style="text-align: right;"><img src="./images/linkedin-logo.png" width="20" height="20" alt="LinkedIn Logo" title="LinkedIn" /></a>
+<div style="border-top: 4px solid #5d3eaa;"></div>
 
 <div style="text-align:center;">
   <img src="./images/headshot.JPG" width="150" height="150" style="border-radius:50%;" />
 </div>
-<div style="line-height: 0.4;">
+<div style="line-height: 0.8;">
   <p style="text-align:center; font-size:26px; color:#5d3eaa; font-weight: bold;">Patrick D. Aleo</p>
   <p style="text-align:center; font-size:22px; color:#5d3eaa; font-weight: bold;">AI/ML Researcher for Time-Domain Science in Astronomy</p>
 </div>
@@ -19,11 +19,12 @@ Aside from research, I'm a cinephile (lover of movies) and an oenophile (lover o
 
 Feel free to peruse the website!
 
-#### Education
+<p style="text-align:left; font-size:18px; color:#5d3eaa; font-weight: bold;">Education</p>
 <div style="line-height: 0.4;">
   <p>The University of Illinois at Urbana-Champaign, Ph.D. Astronomy (Aug. 2018 - late 2023, expected)</p>
   <p>The University of Texas at Austin, BS Physics (Aug. 2014 - Dec. 2017)</p>
   <p>The University of Texas at Austin, BS Astronomy (Aug. 2014 - Dec. 2017)</p>
 </div>
 
-<div style="border-bottom: 80px solid #5d3eaa; padding-bottom: 10px; color: #FFF; text-align: center;">This Jekyll template was custom-made by yours truly, with some help from ChatGPT!</div>
+<div style="border-bottom: 20px solid #5d3eaa"></div>
+This Jekyll template was custom-made by yours truly, with some help from ChatGPT!
