@@ -47,18 +47,27 @@
 <h3 id="synestia" style="color:#5d3eaa;">Visualizing the Moon-forming synestia informed by machine learning clustering</h3>
 
 <p>My project, <a href="https://github.com/patrickaleo/estra/blob/master/Notebooks/Estra.ipynb">Estra</a>, enables scientists to become their own storyteller through automating, informing, and improving astrophysical data visualization using machine learning algorithms. 
-This approach utilizes "physically interpretable" clusters—clusters corresponding to physically meaningful structures within the simulation data to inform the color mapping transfer function, in addition to building a simple yet powerful shading network to map opacity, brightness, falloff, and other attributes. 
+This approach utilizes "physically interpretable" clusters corresponding to physically meaningful structures within the simulation data to inform the color mapping transfer function and a shading network to map opacity, brightness, falloff, and other attributes. 
 Here is a demonstration of Estra applied to the Moon-forming synestia: a super-coronation limit body resulting from the high-energy, high-angular momentum impact of a celestial protoplanetary body with Earth, from which the Moon coalesces. 
 The hot, dense core radiates vividly with a white/yellow hue, and is surrounded by a ring of cooler condensates and material. 
 The synestia hypothesis explains the physical and chemical properties of the Moon, and this visualization provides a possible representation of our shared history billions of years ago.</p>
 
-<figure>
+<div>
+  <figure>
+    <img src="./images/synestia_unrendered.jpg" alt="Synestia_unrendered" style="width:80%" />
+  </figure>
+  <figure>
 <img src="./images/synestia.jpg" alt="Synestia" style="width:80%" />
-<figcaption> The final renders of the synestia using (a) the Estra shader—with its colormap informed by the 5-cluster GMM result and (b) the AVL’s more complicated, custom shader not informed by a machine learning algorithm. Although choosing the appropriate clustering algorithm and developing the pipeline took one of us (P. D. Aleo) approximately two months, 
- was created in approximately a day's work once the workflow was established. Meanwhile, the timeframe for 
+<figcaption> The final renders of the synestia using (a) the Estra shader informed by machine learning and (b) the AVL’s custom shader not informed by a machine learning algorithm. 
+  Although choosing the appropriate clustering algorithm and developing the pipeline took one of us (P. D. Aleo) approximately two months, the (a) was created in approximately a day's work once the workflow was established. Meanwhile, the timeframe for (b)
  was similar, but involved the work of three visualization designers (A.J. Christensen, K. Borkiewicz, R. Patterson). 
 This demonstrates how a scientist can create a simplified visualization of their own work, comparable to the quality of one produced by a professional visualization team.</figcaption>
 </figure>
+  <svg style="position:absolute; top: 50%;left:50%;transform:translate(-50%,-50%)">
+    <line x1="0" y1="0" x2="0" y2="100" style="stroke:#000000;stroke-width:2" />
+    <polyline points="-10,50 0,60 10,50 0,40" style="fill:#000000;stroke:#000000;stroke-width:2" />
+  </svg>
+</div>
       
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
         This site is open source. <a href="https://github.com/patrickaleo/patrickaleo.github.io/edit/main/README.md">Improve this page</a>.
@@ -69,4 +78,3 @@ This demonstrates how a scientist can create a simplified visualization of their
     <script>anchors.add();</script>
   </body>
 </html>
-
