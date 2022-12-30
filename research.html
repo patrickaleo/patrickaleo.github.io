@@ -59,7 +59,8 @@
       
 <p>I lead the First Data Release (DR1) for the <a href="https://yse.ucsc.edu">Young Supernova Experiment (YSE)</a> Survey’s first ~2 years of operation on the Pan-STARRS telescopes, 
   a survey designed to build statistical samples of young, red, and rare transients, better understand black hole variability, and to constrain the fundamental cosmological parameters of the universe.
-Moreover, I generated cutting edge sumulations, trained the hybrid physics-VAE model <a href="https://arxiv.org/abs/2109.13999">ParSNIP</a> for multi-band time-evolving photometric classification of 1975 YSE DR1 transients, and integrated the classifier to characterize such supernovae.
+Moreover, I generated cutting edge sumulations, trained the hybrid physics-VAE model <a href="https://arxiv.org/abs/2109.13999">ParSNIP</a> for multi-band time-evolving photometric classification of 1975 YSE DR1 transients, 
+ and integrated the classifier to characterize such supernovae.
 This was a huge effort on behalf of the entire YSE collaboration, and this work would not have been possible without their help! </p>      
 
 <div style="line-height: 0.5;">
@@ -81,9 +82,19 @@ As a result, I found 11 missed transients (7 supernovae, 4 active galactic nucle
 Thus, I am currently using the SNAD Miner to estimate a lower limit of missed transients to date, and use these insights to prevent future similar losses with future surveys such as LSST. 
 To date, the SNAD Miner has found upwards of 200 of missed supernovae. </p>      
  
+<div style="line-height: 0.5;">
 <h3 id="AD" style="color:#5d3eaa;">Real-time Anomaly Detection</h3>
 <i>Advisor: Prof. Gautham Narayan</i>
+</div>     
       
+<div>
+  <figure>
+<img src="./images/AD_filter.jpg" alt="AD_filter" style="width:100%" />
+<figcaption> Light curves of ANTARES anomaly detection filter discoveries AT 2021tdu (microlensing event), AT 2021qdl (luminous red nova), and SN 2022nwx (calcium-rich supernova).
+</figcaption>
+</figure>
+</div>      
+  
 <p>Using an isolation forest algorithm, I built a real-time anomaly detection filter for ZTF broker <a href="https://antares.noirlab.edu">ANTARES</a> using machine learning techniques to detect and report transient events to prioritize objects for spectroscopic follow-up. 
 Highlights include a <a href="https://en.wikipedia.org/wiki/Gravitational_microlensing">rare microlensing event</a>, 
 supernovae (SN Ia, II, IIn, etc.), and a <a href="https://en.wikipedia.org/wiki/Luminous_red_nova">luminous red nova</a> in the Andromeda Galaxy---the neighbor of our own Milky Way Galaxy. </p>
@@ -95,8 +106,8 @@ supernovae (SN Ia, II, IIn, etc.), and a <a href="https://en.wikipedia.org/wiki/
   
 <div>
   <figure>
-<img src="./images/astro-rcnn.jpg" alt="astro-rcnn" style="width:100%" />
-<figcaption> A simple schematic of our MaskR-CNN framework for instance segmentation.
+<img src="./images/astro_rcnn.jpeg" alt="astro-rcnn" style="width:100%" />
+<figcaption> A simple schematic of our Mask R-CNN framework for instance segmentation.
 </figcaption>
 </figure>
 </div>      
