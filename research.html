@@ -57,9 +57,9 @@
 </figure>
 </div>      
       
-<p>I lead the First Data Release (DR1) for the Young Supernova Experiment (YSE) Survey’s first ~2 years of operation on the Pan-STARRS telescopes, 
+<p>I lead the First Data Release (DR1) for the <a href="https://yse.ucsc.edu">Young Supernova Experiment (YSE)</a> Survey’s first ~2 years of operation on the Pan-STARRS telescopes, 
   a survey designed to build statistical samples of young, red, and rare transients, better understand black hole variability, and to constrain the fundamental cosmological parameters of the universe.
-Moreover, I generated cutting edge sumulations, trained the hybrid physics-VAE model ParSNIP for multi-band time-evolving photometric classification of 1975 YSE DR1 transients, and integrated the classifier to characterize such supernovae.
+Moreover, I generated cutting edge sumulations, trained the hybrid physics-VAE model <a href="https://arxiv.org/abs/2109.13999">ParSNIP</a> for multi-band time-evolving photometric classification of 1975 YSE DR1 transients, and integrated the classifier to characterize such supernovae.
 This was a huge effort on behalf of the entire YSE collaboration, and this work would not have been possible without their help! </p>      
 
 <div style="line-height: 0.5;">
@@ -71,23 +71,42 @@ This was a huge effort on behalf of the entire YSE collaboration, and this work 
   <figure>
 <img src="./images/miner_pipeline.jpg" alt="miner" style="width:100%" />
 <figcaption> The SNAD Miner pipeline: time-series features are extracted from survey specific simulations, 
-  from which a Principal Component Analysis and k-d tree search are used to find objects with similar feature distributions for supernova discovery.
+  from which a Principal Component Analysis (PCA) and k-d tree search are used to find objects with similar feature distributions for supernova discovery.
 </figcaption>
 </figure>
 </div>      
       
-<p>At the SNAD-IV Workshop, I pioneered a new method to calculate light curve features of simulations and use k-D trees and PCA to search for nearest matching light curve features of missed transient events in ZTF Data Releases.
+<p>At the <a href="https://snad.space/2021/">SNAD-IV Workshop</a>, I pioneered a new method to calculate light curve features of simulations and use k-D trees and PCA to search for nearest matching light curve features of missed transient events in ZTF Data Releases.
 As a result, I found 11 missed transients (7 supernovae, 4 active galactic nuclei candidates). Because these objects were not discovered while they were active, key science to understanding such events are lost.
 Thus, I am currently using the SNAD Miner to estimate a lower limit of missed transients to date, and use these insights to prevent future similar losses with future surveys such as LSST. 
 To date, the SNAD Miner has found upwards of 200 of missed supernovae. </p>      
  
-<div style="line-height: 0.5;">
 <h3 id="AD" style="color:#5d3eaa;">Real-time Anomaly Detection</h3>
 <i>Advisor: Prof. Gautham Narayan</i>
-</div>
       
-<p>Using an isolation forest algorithm, I built a real-time anomaly detection filter for ZTF broker ANTARES using machine learning techniques to detect and report transient events to prioritize objects for spectroscopic follow-up. 
-Highlights include a rare microlensing event, supernovae (SN Ia, II, IIn, etc.), and a luminous red nova in the Andromeda Galaxy---the neighbor of our own Milky Way Galaxy. </p>
+<p>Using an isolation forest algorithm, I built a real-time anomaly detection filter for ZTF broker <a href="https://antares.noirlab.edu">ANTARES</a> using machine learning techniques to detect and report transient events to prioritize objects for spectroscopic follow-up. 
+Highlights include a <a href="https://en.wikipedia.org/wiki/Gravitational_microlensing">rare microlensing event</a>, 
+supernovae (SN Ia, II, IIn, etc.), and a <a href="https://en.wikipedia.org/wiki/Luminous_red_nova">luminous red nova</a> in the Andromeda Galaxy---the neighbor of our own Milky Way Galaxy. </p>
+      
+<div style="line-height: 0.5;">
+<h3 id="AD" style="color:#5d3eaa;">Astro R-CNN: Application of Mask R-CNN Deep Learning for Galaxy Image Deblending and Instance Segmentation</h3>
+<i>Advisor: Prof. Xin Liu </i>
+</div>  
+  
+<div>
+  <figure>
+<img src="./images/astro-rcnn.jpg" alt="astro-rcnn" style="width:100%" />
+<figcaption> A simple schematic of our MaskR-CNN framework for instance segmentation.
+</figcaption>
+</figure>
+</div>      
+      
+<p>With fellow graduate student <a href="https://burke86.github.io"> Colin J. Burke</a>, 
+  we developed the first application of the Mask R-CNN framework <a href="https://arxiv.org/abs/1703.06870">(He et al. 2017)</a>---an architecture used in self-driving cars---to detect, classify, and deblend sources in multiband astronomical images.
+  This technique, or extensions using similar network architectures, may be applied to current and future deep imaging surveys such as Large Synoptic Survey Telescope and Wide-Field Infrared Survey Telescope.
+  After publication, we extended the project and have mentored and advised two undergraduate students, Anshul Shah <a href="https://nbviewer.org/github/burke86/burke86.github.io/blob/master/assets/SPIN_Poster.pdf">(view SPIN poster)</a> and Yufeng Liu, 
+  through the <a href="http://spin.ncsa.illinois.edu">NCSA SPIN</a> research program.</p>
+<p><i>Fun fact: this idea was born out of a final class assignment!</i></p>
  
 <div style="line-height: 0.5;">
 <h3 id="synestia" style="color:#5d3eaa;">Visualizing the Moon-forming synestia informed by machine learning clustering</h3>
@@ -105,7 +124,7 @@ Highlights include a rare microlensing event, supernovae (SN Ia, II, IIn, etc.),
       
 <p>My project, <a href="https://github.com/patrickaleo/estra/blob/master/Notebooks/Estra.ipynb">Estra</a>, enables scientists to become their own storyteller through automating, informing, and improving astrophysical data visualization using machine learning algorithms. 
 This approach utilizes "physically interpretable" clusters corresponding to physically meaningful structures within the simulation data to inform the color mapping transfer function and a shading network to map opacity, brightness, falloff, and other attributes. 
-Here is a demonstration of Estra applied to the Moon-forming synestia: a super-coronation limit body resulting from the high-energy, high-angular momentum impact of a celestial protoplanetary body with Earth, from which the Moon coalesces. 
+Here is a demonstration of Estra applied to the <a href="https://en.wikipedia.org/wiki/Synestia">Moon-forming synestia</a>: a super-coronation limit body resulting from the high-energy, high-angular momentum impact of a celestial protoplanetary body with Earth, from which the Moon coalesces. 
 The hot, dense core radiates vividly with a white/yellow hue, and is surrounded by a ring of cooler condensates and material. 
 The synestia hypothesis explains the physical and chemical properties of the Moon, and this visualization provides a possible representation of our shared history billions of years ago.</p>
 
