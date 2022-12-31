@@ -27,4 +27,4 @@ Feel free to peruse the website!
   <p>The University of Texas at Austin, BS Astronomy (Aug. 2014 - Dec. 2017)</p>
 </div>
 
-<p <img src="./images/CV.png" width="35" height="35" alt="CV" title="CV" /></a> Check out my <a href="https://www.linkedin.com/in/patrickdaleo/overlay/1635502142790/single-media-viewer/?profileId=ACoAACZOU60BooIvS1uP8k7fdWmZzUC5BKbL-0ICV">CV</a>.</p>
+<p <img src="./images/CV.png" width="35" height="35" alt="CV" title="CV" /><a> Check out my <a href="https://www.linkedin.com/in/patrickdaleo/overlay/1635502142790/single-media-viewer/?profileId=ACoAACZOU60BooIvS1uP8k7fdWmZzUC5BKbL-0ICV">CV</a>.</p>
